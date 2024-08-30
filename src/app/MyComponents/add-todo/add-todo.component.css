@@ -1,0 +1,73 @@
+/* General container styling */
+.container {
+  max-width: 600px; /* Adjust as needed */
+  padding: 20px;
+  background: #f8f9fa; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  margin-top: 20px;
+}
+
+/* Form heading */
+h1 {
+  font-size: 2rem;
+  color: #343a40; /* Dark text color for heading */
+  margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px; /* Spacing between form fields */
+}
+
+/* Form control styling */
+.form-control {
+  border-radius: 5px; /* Rounded corners for input fields */
+  border: 1px solid #ced4da;
+  padding: 10px;
+  transition: border-color 0.3s ease; /* Smooth transition effect */
+}
+
+.form-control:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Focus shadow */
+}
+
+/* Error message styling */
+.text-danger {
+  font-size: 0.875rem; /* Smaller font size for error messages */
+  color: #dc3545; /* Red color for error text */
+  margin-top: 5px;
+}
+
+/* Submit button styling */
+.btn-primary {
+  background-color: #007bff; /* Primary color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Adjust padding */
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition effects */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.btn-primary:focus, .btn-primary:active {
+  box-shadow: none; /* Remove default focus shadow */
+}
+
+/* Margin for submit button */
+.btn-primary.mt-3 {
+  margin-top: 15px; /* Add spacing on top of the button */
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+  .container {
+    padding: 15px;
+  }
+}

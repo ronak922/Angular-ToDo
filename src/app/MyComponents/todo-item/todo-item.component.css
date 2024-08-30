@@ -1,0 +1,54 @@
+/* Container styling for each todo item */
+.todo-item {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #dee2e6; /* Light border color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition effects */
+  }
+  
+  .todo-item:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  /* Strike-through text for inactive todos */
+  .strike {
+    text-decoration: line-through;
+    color: #6c757d; /* Gray color for completed text */
+  }
+  
+  /* Title styling */
+  h5 {
+    font-size: 1.25rem;
+    color: #343a40; /* Dark text color */
+    margin-bottom: 10px;
+  }
+  
+  /* Description styling */
+  .todo-desc {
+    font-size: 1rem;
+    color: #495057; /* Dark gray color */
+    margin-bottom: 15px; /* Space between description and button */
+  }
+  
+  /* Button styling */
+  .btn-danger {
+    background-color: #dc3545; /* Danger color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition effects */
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .btn-danger:focus, .btn-danger:active {
+    box-shadow: none; /* Remove default focus shadow */
+  }
+  

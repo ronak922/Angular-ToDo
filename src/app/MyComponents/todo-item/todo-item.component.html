@@ -1,0 +1,11 @@
+<div class="todo-item my-3 p-3 bg-light rounded shadow-sm">
+    <h5 [ngClass]="{'strike': !todo.active}">{{ todo.title }}</h5>
+    <p class="todo-desc">{{ todo.desc }}</p>
+    <button 
+      type="button" 
+      class="btn btn-sm btn-danger" 
+      (click)="onClick(todo)">
+      Delete
+    </button>
+  </div>
+  

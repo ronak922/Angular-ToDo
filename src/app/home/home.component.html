@@ -1,0 +1,13 @@
+<!-- coming-soon.component.html -->
+<div class="coming-soon-container">
+    <div class="coming-soon-content">
+      <h1>Projects Coming Soon</h1>
+      <p>Stay tuned for exciting new projects!</p>
+      <button (click)="notifyMe()">Notify Me</button>
+      <div *ngIf="notificationSent" class="notification-message">
+        You will be notified when new projects are available!
+      </div>
+    </div>
+  </div>
+  
+  
