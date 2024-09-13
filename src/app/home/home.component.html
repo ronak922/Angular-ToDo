@@ -1,13 +1,14 @@
 <!-- coming-soon.component.html -->
 <div class="coming-soon-container">
-    <div class="coming-soon-content">
-      <h1>Projects Coming Soon</h1>
-      <p>Stay tuned for exciting new projects!</p>
-      <button (click)="notifyMe()">Notify Me</button>
-      <div *ngIf="notificationSent" class="notification-message">
-        You will be notified when new projects are available!
-      </div>
-    </div>
+  <div class="coming-soon-content">
+    <h1>E-Commerce Website</h1>
+    <p>Stay tuned for more exciting new projects!</p>
+    <button id="redirectButton">Click me</button>
   </div>
-  
-  
+</div>
+
+<script>
+  document.getElementById('redirectButton').addEventListener('click', function() {
+    window.open('https://ronak007-ecom.onrender.com/', '_blank');
+  });
+</script>
